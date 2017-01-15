@@ -1,5 +1,5 @@
 --[[
-  Copyright 2016 Joshua Musselwhite, Whizzbang Inc
+  Copyright 2016 Whizzbang Inc
 
   Licensed under the Apache License, Version 2.0 (the "License");
   you may not use this file except in compliance with the License.
@@ -59,6 +59,7 @@ end
 -- delim - delimiter
 --]]
 function split(str, delim)
+  if str == nil then return nil end
   local t = {}
   local i = 1
   for str in string.gmatch(str, "([^" .. delim .. "]+)") do
