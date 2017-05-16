@@ -9,11 +9,24 @@ A plugin for Lightroom (on Mac) to show which focus point was active when the pi
 
 Supported Cameras
 --------
-* Canon cameras - all EOS and point and shoots. 7D Mark ii, 5D Mark iii, 5D Mark iv, 350D, 40D, 50D, 60D, 80D, 7D, 5D, etc, Powershot G12, G16, G1X, G5X, IXUS 310 HS, SX30, SX40 HS
-* Nikon D7100, D7200
-* Nikon D800 (and possibly D810 and D800E), D700.
-* Fuji all recent X bodies (X-T2, X-T1, X-T10, X-Pro2, X-Pro1, X-A3, X-A2, X-A1, X-A10, X-E2S, X-E2, X-E1, X100T, X30, X70, etc)
-* Olympus cameras (Should work on recent E-* bodies)
+* Canon cameras 
+  * all EOS and point and shoots. 
+  * 7D Mark ii, 5D Mark iii, 5D Mark iv, 350D, 40D, 50D, 60D, 70D, 80D, 7D, 5D, etc, 
+  * Powershot G12, G16, G1X, G5X, IXUS 310 HS, SX30, SX40 HS
+* Nikon 
+  * D7100, D7200, D700, D800 (possibly D810 and D800E), D5500, D5300, D5200
+* Fuji cameras 
+  * all recent X bodies (X-T2, X-T1, X-T10, X-Pro2, X-Pro1, X-A3, X-A2, X-A1, X-A10, X-E2S, X-E2, X-E1, X100T, X30, X70, etc)
+* Olympus cameras 
+  * (Should work on recent E-* bodies)
+* Panasonic cameras
+* Pentax ([full list](focuspoints.lrdevplugin/focus_points/pentax/README.md))
+  * Tested
+    * K-50, K-S1, K-5 II, K-5 IIs, K-5, K-30, K-7, K20D, K-r, K200D, K10D, K110D, K100D Super, K100D, *ist DS2, *ist DS, *ist D
+  * Working, but missing features
+    * K-1, K-3, K-3 II
+  * Untested, but should work:
+    * KP, K-70, K-S2, K-500, K-x
 * iphone and ipad
 
 
@@ -73,7 +86,7 @@ Special Thanks
 --------
 There's been a lot of man-hours put into this effort so far. All volunteer. So help me in thanking the individuals who has worked hard on this. First off, thanks for Phil Harvey for providing the 3rd party library ExifTool. The following is a list of the individual contributors on this project. These guys have fixed bugs, added camera support, added face detection, added support for your iphone, and many other cool features. (If you are a dev and I've missed you, please feel free to update this file or add your real name):
 
-rderimay, philmoz, project802, jandhollander, DeziderMesko, StefLedof. 
+rderimay, philmoz, project802, jandhollander, DeziderMesko, StefLedof, roguephysicist. 
 
 <a href="https://github.com/musselwhizzle/Focus-Points/graphs/contributors">Full list can be seen here.</a>
 
